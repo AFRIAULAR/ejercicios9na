@@ -1,0 +1,58 @@
+html
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.divContainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.location{
+    display: flex;
+    align-items: center;
+}
+
+.followContainer {
+    width: 450px;
+    height:80;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialMedia{
+    width: 350px;
+    height:80;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devicon-facebook-plain{
+    border-radius: 50%;
+}

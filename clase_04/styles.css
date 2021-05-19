@@ -1,0 +1,9 @@
+h1{
+    background-color: aqua;
+}
+ main, header, nav{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     height: 100%
+ } 
